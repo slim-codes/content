@@ -75,8 +75,8 @@ To use Vue in an existing site, you can drop one of the following [`<script>`](/
 
 However, this approach has some limitations. To build more complex apps, you'll want to use the [Vue npm package](https://www.npmjs.com/package/vue). This will let you use advanced features of Vue and take advantage of bundlers like WebPack. To make building apps with Vue easier, there is a CLI to streamline the development process. To use the npm package & the CLI you will need:
 
-1. Node.js 8.11+ installed.
-2. npm or yarn.
+1. Node.js 15+ installed.
+2. npm.
 
 > **Note:** If you don't have the above installed, find out [more about installing npm and Node.js](/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#adding_powerups) here.
 
@@ -84,12 +84,6 @@ To install the CLI, run the following command in your terminal:
 
 ```bash
 npm install --global @vue/cli
-```
-
-Or if you'd prefer to use yarn:
-
-```bash
-yarn global add @vue/cli
 ```
 
 Once installed, to initialize a new project you can then open a terminal in the directory you want to create the project in, and run `vue create <project-name>`. The CLI will then give you a list of project configurations you can use. There are a few preset ones, and you can make your own. These options let you configure things like TypeScript, linting, vue-router, testing, and more.
