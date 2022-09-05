@@ -30,11 +30,9 @@ Now let's introduce Vue, the third of our frameworks. In this article we'll look
           >.
         </p>
         <p>
-          Vue components are written as a combination of JavaScript objects that
-          manage the app's data and an HTML-based template syntax that maps to
-          the underlying DOM structure. For installation, and to use some of the
-          more advanced features of Vue (like Single File Components or render
-          functions), you'll need a terminal with node + npm installed.
+          Familiarity with the command line.
+          Node.js version 15.0 or higher is installed.
+          NPM.
         </p>
       </td>
     </tr>
