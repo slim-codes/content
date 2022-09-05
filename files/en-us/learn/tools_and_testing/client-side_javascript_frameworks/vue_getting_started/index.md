@@ -70,7 +70,7 @@ To use Vue in an existing site, you can drop one of the following [`<script>`](/
 - Production Script (Optimized version, minimal console warnings. It is recommended that you specify a version number when including Vue on your site so that any framework updates do not break your live site without you knowing.)
 
   ```html
-  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
   ```
 
 However, this approach has some limitations. To build more complex apps, you'll want to use the [Vue npm package](https://www.npmjs.com/package/vue). This will let you use advanced features of Vue and take advantage of bundlers like WebPack. To make building apps with Vue easier, there is a CLI to streamline the development process. To use the npm package & the CLI you will need:
@@ -86,9 +86,12 @@ To install the CLI, run the following command in your terminal:
 npm install --global @vue/cli
 ```
 
-Once installed, to initialize a new project you can then open a terminal in the directory you want to create the project in, and run `vue create <project-name>`. The CLI will then give you a list of project configurations you can use. There are a few preset ones, and you can make your own. These options let you configure things like TypeScript, linting, vue-router, testing, and more.
+Once installed,
 
-We'll look at using this below.
+1. Open a terminal in directory you want to create the project in.
+2. Run `vue create <project-name>`
+
+The CLI will give you a list of project configurations you can use. These options let you configure things like TypeScript, linting, vue-router, testing, and more. If you are unsure about an option, choose No for now.
 
 ## Initializing a new project
 
